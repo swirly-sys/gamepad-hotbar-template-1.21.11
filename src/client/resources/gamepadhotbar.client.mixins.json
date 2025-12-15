@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.swirlysys.gamepadhotbar.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"HotbarMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

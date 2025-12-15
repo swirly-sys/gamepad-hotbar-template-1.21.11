@@ -1,0 +1,25 @@
+{
+  "key.category.gamepadhotbar.cycle_hotbar": "Gamepad Hotbar",
+  "key.gamepadhotbar.cyclehotbar_0": "Cycle Hotbar Left",
+  "key.gamepadhotbar.cyclehotbar_1": "Cycle Hotbar Up",
+  "key.gamepadhotbar.cyclehotbar_2": "Cycle Hotbar Right",
+  "key.gamepadhotbar.cyclehotbar_3": "Cycle Hotbar Down",
+  "key.gamepadhotbar.cyclehotbar_4": "Cycle Weapon Slot",
+
+  "gamepadhotbar.configuration.title": "Gamepad Hotbar Config",
+  "gamepadhotbar.configuration.section.gamepadhotbar.client.toml": "Gamepad Hotbar Client Config",
+  "gamepadhotbar.configuration.section.gamepadhotbar.client.toml.title": "Gamepad Hotbar Settings",
+
+  "gamepadhotbar.config.gamepad_hotbar_toggle": "Enable gamepad hotbar",
+  "gamepadhotbar.config.gamepad_hotbar_toggle.tooltip": "ON = Use gamepad hotbar\nOFF = Use vanilla hotbar",
+  "gamepadhotbar.config.mirror_mode": "Mirror mode",
+  "gamepadhotbar.config.mirror_mode.tooltip": "When enabled, the hotbar slots will be mirrored to opposite sides of the screen",
+  "gamepadhotbar.config.scale_hotbar_x": "Horizontal scale",
+  "gamepadhotbar.config.scale_hotbar_x.tooltip": "Adjust the horizontal scale of the hotbar",
+  "gamepadhotbar.config.pad_hotbar_x": "Horizontal offset",
+  "gamepadhotbar.config.pad_hotbar_x.tooltip": "Adjust the horizontal offset of the hotbar",
+  "gamepadhotbar.config.pad_hotbar_y": "Vertical offset",
+  "gamepadhotbar.config.pad_hotbar_y.tooltip": "Adjust the vertical offset of the hotbar",
+  "gamepadhotbar.config.pos_hotbar_y": "Vertical position",
+  "gamepadhotbar.config.pos_hotbar_y.tooltip": "Adjust the vertical position of the hotbar"
+}

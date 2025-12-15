@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "gamepadhotbar",
+	"version": "1.21.11-1.0.1",
+	"name": "Gamepad Hotbar",
+	"description": "A mod for Minecraft which makes the HUD hotbar more gamepad friendly by rearranging the slots and adding new control binds.",
+	"authors": [
+		"swirly-sys"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/gamepad-hotbar",
+		"sources": "https://github.com/swirly-sys/gamepad-hotbar-template-1.21.11"
+	},
+	"license": "MIT",
+	"icon": "assets/gamepadhotbar/gamepadhotbar.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.swirlysys.gamepadhotbar.GamepadHotbarClient"
+		]
+	},
+  "accessWidener": "gamepadhotbar.accesswidener",
+	"mixins": [
+		"gamepadhotbar.client.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.11",
+        "forgeconfigapiport": ">=21.11.0",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
