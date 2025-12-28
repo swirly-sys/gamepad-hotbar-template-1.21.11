@@ -3,7 +3,8 @@
 	"package": "com.swirlysys.gamepadhotbar.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"HotbarMixin"
+      "GuiMixin",
+      "ContextualBarRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

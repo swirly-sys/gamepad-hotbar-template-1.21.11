@@ -1,7 +1,5 @@
 package com.swirlysys.gamepadhotbar.mixin.client;
 
-import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.math.Axis;
 import com.swirlysys.gamepadhotbar.GamepadHotbar;
 import com.swirlysys.gamepadhotbar.GamepadHotbarClient;
 import com.swirlysys.gamepadhotbar.config.GamepadHotbarClientConfig;
@@ -24,10 +22,11 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.ModifyVariable;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(Gui.class)
-public class HotbarMixin {
+public class GuiMixin {
     @Unique
     private static final Identifier HOTBAR_SPRITE = Identifier.withDefaultNamespace("hud/hotbar");
     @Unique
@@ -298,5 +297,25 @@ public class HotbarMixin {
                 }
             }
         }
+    }
+
+    // Gui layers affected by "Lower status display" config
+    @ModifyVariable(method = "renderPlayerHealth", at = @At("STORE"), ordinal = 4)
+    private int onRenderPlayerHealth(int n) {
+        if (GamepadHotbarClientConfig.GAMEPAD_HOTBAR_TOGGLE.isTrue() && GamepadHotbarClientConfig.LOWER_STATUS.isTrue())
+            return n + 24;
+        return n;
+    }
+    @ModifyVariable(method = "renderVehicleHealth", at = @At("STORE"), ordinal = 2)
+    private int onRenderVehicleHealth(int k) {
+        if (GamepadHotbarClientConfig.GAMEPAD_HOTBAR_TOGGLE.isTrue() && GamepadHotbarClientConfig.LOWER_STATUS.isTrue())
+            return k + 24;
+        return k;
+    }
+    @ModifyVariable(method = "renderSelectedItemName", at = @At("STORE"), ordinal = 2)
+    private int onRenderSelectedItemName(int k) {
+        if (GamepadHotbarClientConfig.GAMEPAD_HOTBAR_TOGGLE.isTrue() && GamepadHotbarClientConfig.LOWER_STATUS.isTrue())
+            return k + 24;
+        return k;
     }
 }

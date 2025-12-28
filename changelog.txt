@@ -1,3 +1,3 @@
-v1.0.1
-- Fixed spectator mode hotbar (all versions)
-- Fixed erroneously swapped behavior of the Cycle Hotbar Up and Cycle Hotbar Right keybinds (1.21.11)
+v1.0.2
+- New configuration option: Lower status display
+- Increased the maximum value of the vertical position configuration: 20 → 25

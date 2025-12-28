@@ -12,6 +12,8 @@
 
   "gamepadhotbar.config.gamepad_hotbar_toggle": "Enable gamepad hotbar",
   "gamepadhotbar.config.gamepad_hotbar_toggle.tooltip": "ON = Use gamepad hotbar\nOFF = Use vanilla hotbar",
+  "gamepadhotbar.config.lower_status": "Lower status display",
+  "gamepadhotbar.config.lower_status.tooltip": "Set to ON to lower the status display to the bottom of the screen",
   "gamepadhotbar.config.mirror_mode": "Mirror mode",
   "gamepadhotbar.config.mirror_mode.tooltip": "When enabled, the hotbar slots will be mirrored to opposite sides of the screen",
   "gamepadhotbar.config.scale_hotbar_x": "Horizontal scale",

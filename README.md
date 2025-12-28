@@ -1,5 +1,4 @@
 <h1>Gamepad Hotbar</h1>
-<hr>
 <img alt="NeoForge logo" width="32" height="32" src="https://github.com/Neoforged.png"> <img alt="Fabric logo" width="26" height="28" src="https://fabricmc.net/assets/logo.png"> <i>Supports NeoForge and Fabric.</i>
 
 Gamepad Hotbar is a client mod for Minecraft which makes the HUD hotbar more gamepad friendly by rearranging the slots and adding new control binds.
@@ -12,7 +11,6 @@ In each of the in-game menu screens, this mod adds distinct icons to each of the
 where each gamepad hotbar slot corresponds.
 
 <h1>Control binds</h1>
-<hr>
 Five new control binds have been added for making hotbar slot selection more accessible on gamepads:
 
 - `Cycle Hotbar Left` → cycles through the item pair in the left quadrant
@@ -27,7 +25,6 @@ such as a face button or shoulder button. Alternatively, hotbar quadrants could 
 and the weapon slot to a d-pad button.
 
 <h1>Configurable</h1>
-<hr>
 A mod configuration screen is included where users can adjust the position of the hotbar on their display.
 Multiple options are available to suit a variety of user tastes. This also serves to account for mods that alter the
 positions of other HUD elements.

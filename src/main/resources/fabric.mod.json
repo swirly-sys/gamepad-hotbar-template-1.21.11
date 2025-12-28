@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "gamepadhotbar",
-	"version": "1.21.11-1.0.1",
+	"version": "1.21.11-1.0.2",
 	"name": "Gamepad Hotbar",
 	"description": "A mod for Minecraft which makes the HUD hotbar more gamepad friendly by rearranging the slots and adding new control binds.",
 	"authors": [

@@ -11,10 +11,8 @@ import net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen;
 import net.minecraft.client.gui.screens.inventory.InventoryScreen;
 import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.resources.Identifier;
-import net.minecraft.util.ARGB;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.Slot;
-import org.joml.Vector2i;
 
 public class ClientEventHandler {
     private static final Identifier HOTBAR_0 = Identifier.fromNamespaceAndPath(GamepadHotbar.MOD_ID, "container/slot/hotbar_0");
