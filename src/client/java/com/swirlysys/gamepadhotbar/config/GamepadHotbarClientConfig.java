@@ -29,7 +29,7 @@ public class GamepadHotbarClientConfig {
 
     public static final ModConfigSpec.IntValue PAD_Y = BUILDER
             .translation("gamepadhotbar.config.pad_hotbar_y")
-            .defineInRange("pad_hotbar_y", 5, 0, 20);
+            .defineInRange("pad_hotbar_y", 5, 0, 25);
 
     public static final ModConfigSpec.ConfigValue<HotbarPos> POS_Y = BUILDER
             .translation("gamepadhotbar.config.pos_hotbar_y")

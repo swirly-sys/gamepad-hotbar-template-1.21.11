@@ -1,3 +1,4 @@
-v1.0.2
+v1.0.2-hotfix.r1
 - New configuration option: Lower status display
-- Increased the maximum value of the vertical position configuration: 20 → 25
+- Increased the maximum value of the vertical position configuration: 20 → 25*
+* This change was erroneously excluded from the initial v1.0.2 release, affecting the following version: Fabric 1.21.11. The issue has been corrected by this hotfix.
